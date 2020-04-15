@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Video Player</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script1.js" defer></script>
+</head>
+
+<body>
+  <div id="player">
+    <video id="video" src="media/gone.mp4" poster="media/poster.png" controls></video>
+    <div id="controls">
+      <button class="btn" id="play-pause"><i class="fa fa-play fa-2x"></i></button>
+      <button class="btn" id="stop"><i class="fa fa-stop fa-2x"></i></button>
+      <div id="progress">
+        <div id="pointer" data-progress="0"></div>
+      </div>
+      <div id="timestamp">00:00</div>
+    </div>
+  </div>
+</body>
+
+</html>

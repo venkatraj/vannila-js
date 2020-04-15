@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+#player {
+  background-color: #777;
+  width: 60%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+video {
+  max-width: 100%;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px;
+  background-color: #aaa;
+}
+
+#controls > * {
+  margin: 0 5px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#play-pause {
+  color: rgb(36, 126, 0);
+}
+
+#stop {
+  color: rgb(202, 14, 14);
+}
+
+#progress {
+  height: 5px;
+  background-color: #fff;
+  flex-grow: 1;
+  position: relative;
+}
+
+#pointer {
+  width: 10px;
+  height: 20px;
+  background-color: #333;
+  position: absolute;
+  left: 0;
+  top: -7px;
+}
